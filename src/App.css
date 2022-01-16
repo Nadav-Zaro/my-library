@@ -62,7 +62,7 @@ button {
   font-weight: 500;
   text-decoration: none;
   border-bottom: 1.5px solid #ee7752;
-  border-left: 1.5px solid white;
+  border-left: 1.5px solid rgba(255, 255, 255, 0);
   text-align: start;
 }
 

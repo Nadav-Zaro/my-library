@@ -29,7 +29,7 @@ const BookReadOrNot = ({setRate,rating,books,setBooks,con1,con2,setisRedirect,se
                         <FaStar className={style.star} key={i} onClick={()=>{it.rating = rate;setBooks(temp);}} 
                         onMouseOver={()=>{setRate(rate);it.rating = rate}}
                         style={{color: rate <= it.rating  ? "gold" : ""}} 
-                        className={style.star}/>)}</div> : ""}
+                        />)}</div> : ""}
                 </div>
             )
         }

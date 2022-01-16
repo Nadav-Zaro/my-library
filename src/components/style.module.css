@@ -210,6 +210,7 @@
 .booksDetails p{
     width: 100%;
     cursor: pointer;
+    transition: .5s;
 }
 
 .booksDetails p:hover{
